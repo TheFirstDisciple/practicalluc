@@ -1,16 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>practica</title>
-</head>
-<body>
-    import java.util.Scanner;
+import java.util.Scanner;
 import java.util.Random;
 
-public class RegistroUsuario {
+public class git {
     private String nombre;
     private String email;
     private String password;
@@ -18,7 +9,7 @@ public class RegistroUsuario {
     private Scanner scanner;
     private static String[] baseDeDatos = {"Juan", "Ana", "Pablo", "María", "Lucía", "Carlos", "Sofía", "Pedro", "Elena", "José"};
 
-    public RegistroUsuario() {
+    public git() {
         this.scanner = new Scanner(System.in);
     }
 
@@ -90,7 +81,7 @@ public class RegistroUsuario {
     }
 
     public static void main(String[] args) {
-        RegistroUsuario registro = new RegistroUsuario();
+        git registro = new git();
         registro.registrarUsuario();
         if (registro.validarFormulario()) {
             System.out.println("Formulario válido");
@@ -99,6 +90,3 @@ public class RegistroUsuario {
         }
     }
 }
-
-</body>
-</html>
