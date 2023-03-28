@@ -72,7 +72,9 @@ public class git {
         Random random = new Random();
         String caracteres = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890@-#_";
         StringBuilder codigo = new StringBuilder();
-        for (int i = 0; i < 10; i++) {
+
+        for (int i = 0; i < 11; i++) {
+
             int indice = random.nextInt(caracteres.length());
             codigo.append(caracteres.charAt(indice));
         }
